@@ -1,0 +1,62 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: 32px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+  
+
+button {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input__wrapper {
+    padding: 20px 0 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
